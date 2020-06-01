@@ -1,0 +1,198 @@
+@media(min-width:300px) {
+    .contact__maps {
+        width: 320px;
+        margin: 0px 0px 3px 0px;
+    }
+    .contact__row {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__img {
+        display: none;
+    }
+    .header__logo {
+        text-align: center;
+    }
+    .about__bacground {
+        max-width: 100%;
+    }
+    .header__heading {
+        font-size: 30px;
+    }
+    .header__button button {
+        padding: 7px 20px 7px 20px;
+        font-size: 12px;
+    }
+    .about__info {
+        padding: 60px 60px 0px 60px;
+    }
+    .about__text_info {
+        margin-bottom: 45px;
+        line-height: 28px;
+        font-size: 16px;
+        color: #858686;
+        font-family: 'Raleway', sans-serif;
+    }
+    .about__text_info_2 {
+        margin-bottom: 45px;
+        line-height: 28px;
+        font-size: 16px;
+        color: #858686;
+        font-family: 'Raleway', sans-serif;
+    }
+    .about__heading_info {
+        margin-bottom: 30px;
+        font-size: 20px;
+        color: #3e3f3f;
+        font-family: 'Merriweather';
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width:768px) {
+    .contact__maps {
+        width: 553px;
+        margin: 0px 0px 3px 0px;
+    }
+    .header__img {
+        display: block;
+    }
+    .about__bacground {
+        max-width: 100%;
+    }
+    .header__logo {
+        text-align: center;
+    }
+    .header__heading {
+        font-size: 35px;
+    }
+    .header__button button {
+        padding: 10px 30px 10px 30px;
+        font-size: 14px;
+    }
+    .about__info {
+        padding: 60px 60px 0px 60px;
+    }
+    .about__text_info {
+        margin-bottom: 45px;
+        line-height: 28px;
+        font-size: 16px;
+        color: #858686;
+        font-family: 'Raleway', sans-serif;
+    }
+    .about__heading_info {
+        margin-bottom: 30px;
+        font-size: 20px;
+        color: #3e3f3f;
+        font-family: 'Merriweather';
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .about__row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:993px) {
+    .contact__row {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__logo {
+        position: absolute;
+        left: 0;
+    }
+    .about__bacground {
+        width: 100%;
+    }
+    .header__heading {
+        font-size: 40px;
+    }
+    .header__button button {
+        padding: 13px 40px 13px 40px;
+        font-size: 16px;
+    }
+    .about__info {
+        padding: 60px 60px 0px 60px;
+        max-width: 50%;
+    }
+    .about__text_info {
+        margin-bottom: 45px;
+        line-height: 28px;
+        font-size: 16px;
+        color: #858686;
+        font-family: 'Raleway', sans-serif;
+    }
+    .about__heading_info {
+        margin-bottom: 30px;
+        font-size: 20px;
+        color: #3e3f3f;
+        font-family: 'Merriweather';
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .about__row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
+@media (min-width:1201px) {
+    .contact__maps {
+        width: 455px;
+        margin: 0px 0px 3px 0px;
+    }
+    .contact__row {
+        flex-direction: row;
+        align-items: initial;
+    }
+    .about__bacground {
+        width: 100%;
+        ;
+    }
+    .header__heading {
+        font-size: 45px;
+    }
+    .header__button button {
+        padding: 16px 45px 14px 45px;
+        font-size: 18px;
+    }
+    .about__info {
+        margin-top: -77px;
+        padding: 50px 25px 0px 60px;
+    }
+    .about__text_info {
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+        margin-left: 5px;
+        font-size: 16px;
+        color: #858686;
+        font-family: 'Raleway', sans-serif;
+    }
+    .about__text_info_2 {
+        letter-spacing: 1px;
+        line-height: 28px;
+        margin-bottom: 32px;
+        margin-left: 5px;
+        font-size: 16px;
+        color: #858686;
+        font-family: 'Raleway', sans-serif;
+    }
+    .about__heading_info {
+        word-spacing: 9px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: #3e3f3f;
+        font-family: 'Merriweather';
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
