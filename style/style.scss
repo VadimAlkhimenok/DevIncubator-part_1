@@ -19,16 +19,16 @@
     $lh_t:3 0px;
     .header {
         background-color: #eff0f2;
-        .header__container {
+        &__container {
             position: relative;
             max-width: 1140px;
             margin: 0 auto;
             margin: 0 auto;
-            .header__body {
+            &__body {
                 padding-top: 65px;
                 padding-bottom: 195px;
-                .header__img {
-                    .glass__hover {
+                &__img {
+                    glass__hover {
                         opacity: 0;
                         z-index: 10;
                         transition: all 0.7s ease 0s;
@@ -36,12 +36,12 @@
                             opacity: 1;
                         }
                     }
-                    .header__glass {
+                    &__glass {
                         position: absolute;
                         right: 8.1%;
                         top: 72%;
                     }
-                    .header__corc {
+                    &__corc {
                         border-radius: 5px;
                         position: absolute;
                         right: 8.6%;
@@ -49,7 +49,7 @@
                         box-shadow: 2px 2px 3px rgba($color: #000000, $alpha: 0.2);
                     }
                 }
-                .header__logo {
+                &__logo {
                     transition: all 0.3s ease 0s;
                     &:hover {
                         animation-name: logo;
@@ -58,8 +58,6 @@
                         animation-iteration-count: infinite;
                         animation-direction: alternate;
                     }
-                    // position: absolute;
-                    ;
                     @keyframes logo {
                         0% {
                             left: 0;
@@ -84,12 +82,12 @@
                         }
                     }
                 }
-                .header__title {
+                &__title {
                     margin-left: $ml_t;
                     margin-right: $mr_t;
                     margin-top: 232.5px;
                     text-align: center;
-                    .header__heading {
+                    &__heading {
                         margin: 10px 0px;
                         text-shadow: 5px 5px 10px #7b7b7d;
                         letter-spacing: 2px;
@@ -109,7 +107,7 @@
                         margin-left: -3px;
                     }
                 }
-                .header__button {
+                &__button {
                     margin-top: 144px;
                     text-align: center;
                     button {
@@ -141,18 +139,18 @@
     
     .about {
         background-color: #f8fafa;
-        .about__container {
+        &__container {
             max-width: 1140px;
             margin: 0 auto;
-            .about__body {
+            &__body {
                 padding-top: 124px;
                 /////////////////////
                 padding-bottom: 135px;
-                .about__title {
+                &__title {
                     text-align: center;
                     margin-left: $ml_t;
                     margin-right: $mr_t;
-                    .about__heading {
+                    &__heading {
                         margin-bottom: $mb_h;
                         font-family: $ff_h;
                         font-size: $fz_h;
@@ -163,7 +161,7 @@
                         margin-left: 13px;
                         word-spacing: -2px;
                     }
-                    .about__text {
+                    &__text {
                         font-size: $fz_t;
                         color: $clr_t;
                         font-family: $ff_t;
@@ -177,10 +175,10 @@
                         margin-left: -10px;
                     }
                 }
-                .about__column {
+                &__column {
                     flex-direction: column;
-                    .about__row {
-                        .about__img {
+                    &__row {
+                        &__img {
                             &:hover .about__bacground {
                                 opacity: 0.6;
                             }
@@ -195,7 +193,7 @@
                             max-width: 100%;
                             position: relative;
                             transition: all 0.3s ease 0s;
-                            .about__descr {
+                            &__descr {
                                 z-index: 2;
                                 transition: all 0.3s ease 0s;
                                 opacity: 0;
@@ -230,17 +228,17 @@
     }
     
     .works {
-        .works__conteiner {
+        &__conteiner {
             max-width: 1200px;
             margin: 0 auto;
-            .works__body {
+            &__body {
                 padding-top: 130px;
                 padding-bottom: 120px;
-                .works__title {
+                &__title {
                     text-align: center;
                     margin-left: $ml_t;
                     margin-right: $mr_t;
-                    .works__heading {
+                    &__heading {
                         margin-bottom: $mb_h;
                         font-family: $ff_h;
                         font-size: $fz_h;
@@ -252,7 +250,7 @@
                         word-spacing: -2px;
                         margin-left: 32px;
                     }
-                    .works__text {
+                    &__text {
                         font-size: $fz_t;
                         color: $clr_t;
                         font-family: $ff_t;
@@ -266,8 +264,8 @@
                         margin-left: -10px;
                     }
                 }
-                .works__column {
-                    .works__row {
+                &__column {
+                    &__row {
                         margin-top: -13px;
                         text-align: center;
                         & ul {
@@ -292,7 +290,7 @@
                                 top: 45%;
                             }
                         }
-                        .works__descr {
+                        &__descr {
                             transition: all 0.3s ease 0s;
                             opacity: 0;
                             z-index: 2;
@@ -327,7 +325,7 @@
                                 background-color: #dd78d5;
                             }
                         }
-                        .works__img {
+                        &__img {
                             max-width: 100%;
                             padding: 0;
                             display: block;
@@ -342,18 +340,18 @@
     
     .team {
         background-color: #f9fbfb;
-        .team__conteiner {
+        &__conteiner {
             max-width: 1200px;
             margin: 0 auto;
-            .team__body {
+            &__body {
                 text-align: center;
                 padding-top: 100px;
                 padding-bottom: 160px;
-                .team__title {
+                &__title {
                     text-align: center;
                     margin-left: $ml_t;
                     margin-right: $mr_t;
-                    .team__heading {
+                    &__heading {
                         margin-bottom: $mb_h;
                         font-family: $ff_h;
                         font-size: $fz_h;
@@ -365,7 +363,7 @@
                         margin-left: -3px;
                         margin-top: -7px;
                     }
-                    .team__text {
+                    &__text {
                         font-size: $fz_t;
                         color: $clr_t;
                         font-family: $ff_t;
@@ -379,7 +377,7 @@
                         margin-left: -10px;
                     }
                 }
-                .team__row {
+                &__row {
                     margin: auto;
                     & li:hover .team__descr {
                         opacity: 1;
@@ -399,13 +397,13 @@
                         display: inline-block;
                         overflow-x: hidden;
                     }
-                    .team__img {
+                    &__img {
                         max-width: 100%;
                         display: block;
                         margin: -7px 6.5px 20px 6.5px;
                         transition: all 0.2s ease 0s;
                     }
-                    .team__descr {
+                    &__descr {
                         text-align: start;
                         transition: all 0.5s ease 0s;
                         transform: rotate(180deg);
@@ -426,13 +424,13 @@
                             top: -20px;
                             left: 17px;
                         }
-                        .team__descr_box {
+                        &_box {
                             padding: 41px 52px 40px 40px;
-                            .team__descr_info {
+                            &_info {
                                 display: flex;
                                 margin-bottom: 18px;
                                 align-items: flex-end;
-                                .team__descr_name {
+                                &_name {
                                     letter-spacing: 1px;
                                     word-spacing: 1px;
                                     text-transform: uppercase;
@@ -441,14 +439,14 @@
                                     font-family: $ff_t;
                                     font-weight: 600;
                                 }
-                                .team__descr_position {
+                                &_position {
                                     margin-left: 10px;
                                     font-size: 18px;
                                     color: #758280;
                                     font-style: italic;
                                 }
                             }
-                            .team__descr_text {
+                            &_text {
                                 font-size: 16px;
                                 margin-bottom: 35px;
                                 color: #16312f;
@@ -456,7 +454,7 @@
                                 line-height: 24px;
                                 word-spacing: 1px;
                             }
-                            .team__descr_contacts {
+                            &_contacts {
                                 i {
                                     color: #214946;
                                     margin-right: 9px;
@@ -475,24 +473,24 @@
     
     .contact {
         background: url(../img/img/bacground_message.png);
-        .contact__container {
+        &__container {
             max-width: 1165px;
             margin: 0 auto;
-            .contact__body {
+            &__body {
                 padding-top: 106px;
                 padding-bottom: 102px;
-                .contact__row {
+                &__row {
                     display: flex;
-                    .contact__column_1 {
+                    &__column_1 {
                         max-width: 100%;
                         padding: 0px 30px;
                         margin: 20px 12.5px 20px 12.5px;
                         background-color: rgba($color: #021623, $alpha: 0.7);
-                        .contact__form {
+                        &__form {
                             width: 553px;
                             max-width: 100%;
                             padding: 18px 0px;
-                            .contact__input {
+                            &__input {
                                 font-family: 'raleway';
                                 font-weight: 500;
                                 font-size: 15px;
@@ -501,7 +499,6 @@
                                 color: #96a1a7;
                                 padding: 28px 0px 13px 0px;
                                 border-bottom: 1px solid #6e7981;
-                                background-color: rgba($color: #000000, $alpha: 0);
                                 &::-webkit-input-placeholder {
                                     font-family: 'raleway';
                                     font-weight: 500;
@@ -535,7 +532,7 @@
                                     text-transform: capitalize;
                                 }
                             }
-                            .contact__text {
+                            &__text {
                                 font-family: 'raleway';
                                 font-weight: 500;
                                 font-size: 15px;
@@ -579,7 +576,7 @@
                                     text-transform: capitalize;
                                 }
                             }
-                            .contact__button {
+                            &__button {
                                 border-radius: 2px;
                                 margin: 38px 0px 0px 0px;
                                 font-size: 17px;
@@ -600,19 +597,18 @@
                             }
                         }
                     }
-                    .contact__column_2 {
+                    &__column_2 {
                         max-width: 100%;
                         padding: 0px 23.5px;
                         margin: 20px 12.5px 20px 12.5px;
                         background-color: rgba($color: #021623, $alpha: 0.7);
-                        .contact__api {
+                        &__api {
                             max-width: 100%;
                             padding: 30px 0px 20px 0px;
                             margin: 0px 0px 0px 10px;
-                            .contact__adress {
+                            &__adress {
                                 display: flex;
                                 flex-direction: column;
-                                // margin-bottom: 30px;
                                 & a {
                                     font-family: 'raleway';
                                     color: #97a1a7;
@@ -624,7 +620,7 @@
                                     color: #fff;
                                 }
                             }
-                            .contact__web {
+                            &__web {
                                 margin-top: 24px;
                                 display: flex;
                                 flex-direction: column;
@@ -640,7 +636,7 @@
                                 }
                             }
                         }
-                        .contact__maps {
+                        &__maps {
                             margin: 0px 0px 3px 0px;
                         }
                     }
@@ -651,24 +647,24 @@
     
     .footer {
         background-color: #262b2e;
-        .fooret__conteiner {
+        &__container {
             max-width: 1140px;
             margin: 0 auto;
-            .footer__body {
+            &__body {
                 padding-top: 90px;
                 padding-bottom: 158.5px;
-                .fooret__title {
+                &__title {
                     text-align: center;
-                    .footer__heading {
+                    &__heading {
                         color: #a6a7a8;
                         font-size: 16px;
                         font-family: 'Raleway';
                     }
                 }
-                .footer__network {
+                &__network {
                     margin: 25.5px 3px 0px 0px;
                     text-align: center;
-                    .footer__href {
+                    &__href {
                         margin: 0px 3px;
                         font-size: 24px;
                         padding: 7px 10px 7px 10px;
@@ -687,3 +683,4 @@
             }
         }
     }
+
